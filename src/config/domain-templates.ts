@@ -19,8 +19,8 @@ export interface DomainTemplate {
  */
 export const domainTemplates: DomainTemplate[] = [
   // Padorupado.ru
-     
-   {
+
+  {
     pattern: /\.padorupado\.ru$/i,
     headers: {
       'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
@@ -111,7 +111,7 @@ export const domainTemplates: DomainTemplate[] = [
     }
   },
 
-    {
+  {
     pattern: /\.odyssey-19\.biz/i,
     headers: {
       'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
@@ -128,8 +128,8 @@ export const domainTemplates: DomainTemplate[] = [
       };
     }
   },
-  
-  
+
+
   {
     pattern: /\.anih1\.top$/i,
     headers: {
@@ -184,8 +184,8 @@ export const domainTemplates: DomainTemplate[] = [
     }
   },
 
-   // kwikie.ru
-   {
+  // kwikie.ru
+  {
     pattern: /\.kwikie\.ru$/i,
     headers: {
       'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
@@ -335,7 +335,7 @@ export const domainTemplates: DomainTemplate[] = [
       };
     }
   },
-  
+
   // dewbreeze84.online
   {
     pattern: /dewbreeze84\.online$/i,
@@ -374,367 +374,367 @@ export const domainTemplates: DomainTemplate[] = [
     }
   },
 
-    // mistyvalley31.live
-    {
-      pattern: /lightningspark77\.pro$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // mistyvalley31.live
+  {
+    pattern: /lightningspark77\.pro$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
-  
-    // clearskydrift45.site
-    {
-      pattern: /clearskydrift45\.site$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.online',
-          'referer': 'https://kerolaunochan.online/',
-        };
-      }
-    },
-  
-    // thunderwave48.xyz
-    {
-      pattern: /thunderwave48\.xyz$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
-    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // stormwatch95.site
-    {
-      pattern: /stormwatch95\.site$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // clearskydrift45.site
+  {
+    pattern: /clearskydrift45\.site$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.online',
+        'referer': 'https://kerolaunochan.online/',
+      };
+    }
+  },
 
-    // windyrays29.online
-    {
-      pattern: /windyrays29\.online$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // thunderwave48.xyz
+  {
+    pattern: /thunderwave48\.xyz$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
-  
-    // mistyvalley31.live
-    {
-      pattern: /thunderstrike77\.online$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
-    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // mistyvalley31.live
-    {
-      pattern: /lightningflash39\.live$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // stormwatch95.site
+  {
+    pattern: /stormwatch95\.site$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // mistyvalley31.live
-    {
-      pattern: /cloudburst82\.xyz$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // windyrays29.online
+  {
+    pattern: /windyrays29\.online$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // drizzleshower19.site
-    {
-      pattern: /drizzleshower19\.site$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // mistyvalley31.live
+  {
+    pattern: /thunderstrike77\.online$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // vmeas.cloud
-    {
-      pattern: /vmeas\.cloud$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://vidmoly.to',
-          'referer': 'https://vidmoly.to/',
-        };
-      }
+  // mistyvalley31.live
+  {
+    pattern: /lightningflash39\.live$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
-    
-    // nextwaveinitiative
-    {
-      pattern: /nextwaveinitiative\.xyz$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://edgedeliverynetwork.org',
-          'referer': 'https://edgedeliverynetwork.org/',
-        };
-      }
-    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // shadowlandschronicles
-    {
-      pattern: /shadowlandschronicles\.com$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://edgedeliverynetwork.org',
-          'referer': 'https://edgedeliverynetwork.org/',
-        };
-      }
+  // mistyvalley31.live
+  {
+    pattern: /cloudburst82\.xyz$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // lightningbolts.ru
-    {
-      pattern: /lightningbolts\.ru$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://vidsrc.cc',
-          'referer': 'https://vidsrc.cc/',
-        };
-      }
+  // drizzleshower19.site
+  {
+    pattern: /drizzleshower19\.site$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-
-    // lightningbolt.site
-    {
-      pattern: /lightningbolt\.site$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://vidsrc.cc',
-          'referer': 'https://vidsrc.cc/',
-        };
-      }
+  // vmeas.cloud
+  {
+    pattern: /vmeas\.cloud$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vidmoly.to',
+        'referer': 'https://vidmoly.to/',
+      };
+    }
+  },
 
-    // vidlvod.store
-    {
-      pattern: /vidlvod\.store$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://vidlink.pro',
-          'referer': 'https://vidlink.pro/',
-        };
-      }
+  // nextwaveinitiative
+  {
+    pattern: /nextwaveinitiative\.xyz$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://edgedeliverynetwork.org',
+        'referer': 'https://edgedeliverynetwork.org/',
+      };
+    }
+  },
 
-    // vyebzzqlojvrl.top
-    {
-      pattern: /vyebzzqlojvrl\.top$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://vidsrc.cc',
-          'referer': 'https://vidsrc.cc/',
-        };
-      }
+  // shadowlandschronicles
+  {
+    pattern: /shadowlandschronicles\.com$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://edgedeliverynetwork.org',
+        'referer': 'https://edgedeliverynetwork.org/',
+      };
+    }
+  },
 
-    // sunnybreeze16.live
-    {
-      pattern: /sunnybreeze16\.live$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.store',
-          'referer': 'https://megacloud.store/',
-        };
-      }
+  // lightningbolts.ru
+  {
+    pattern: /lightningbolts\.ru$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vidsrc.cc',
+        'referer': 'https://vidsrc.cc/',
+      };
+    }
+  },
 
-    // 1stkmgv1.cloud
-    {
-      pattern: /1stkmgv1\.com$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://vidmoly.to',
-          'referer': 'https://vidmoly.to/',
-        };
-      }
-    },
 
-    // rainstorm92.xyz
-    {
-      pattern: /rainstorm92\.xyz$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // lightningbolt.site
+  {
+    pattern: /lightningbolt\.site$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vidsrc.cc',
+        'referer': 'https://vidsrc.cc/',
+      };
+    }
+  },
+
+  // vidlvod.store
+  {
+    pattern: /vidlvod\.store$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vidlink.pro',
+        'referer': 'https://vidlink.pro/',
+      };
+    }
+  },
+
+  // vyebzzqlojvrl.top
+  {
+    pattern: /vyebzzqlojvrl\.top$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vidsrc.cc',
+        'referer': 'https://vidsrc.cc/',
+      };
+    }
+  },
+
+  // sunnybreeze16.live
+  {
+    pattern: /sunnybreeze16\.live$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.store',
+        'referer': 'https://megacloud.store/',
+      };
+    }
+  },
+
+  // 1stkmgv1.cloud
+  {
+    pattern: /1stkmgv1\.com$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vidmoly.to',
+        'referer': 'https://vidmoly.to/',
+      };
+    }
+  },
+
+  // rainstorm92.xyz
+  {
+    pattern: /rainstorm92\.xyz$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
   // cloudydrift38.site
   {
@@ -755,356 +755,356 @@ export const domainTemplates: DomainTemplate[] = [
     }
   },
 
-    // sunshinerays93.live
-    {
-      pattern: /sunshinerays93\.live$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // sunshinerays93.live
+  {
+    pattern: /sunshinerays93\.live$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // sunburst66.pro
-    {
-      pattern: /sunburst66\.pro$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // sunburst66.pro
+  {
+    pattern: /sunburst66\.pro$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-        // clearbluesky72.wiki
-        {
-          pattern: /clearbluesky72\.wiki$/i,
-          headers: {
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-            'accept': '*/*',
-            'accept-language': 'en-US,en;q=0.5',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'cross-site',
-          },
-          headersFn: (url: URL) => {
-            return {
-              'origin': 'https://megacloud.blog',
-              'referer': 'https://megacloud.blog/',
-            };
-          }
-        },
-    
-
-    // breezygale56.online
-    {
-      pattern: /breezygale56\.online$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // clearbluesky72.wiki
+  {
+    pattern: /clearbluesky72\.wiki$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // frostbite27.pro
-    {
-      pattern: /frostbite27\.pro$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-        'cache-control': 'no-cache',
-        'pragma': 'no-cache',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+
+  // breezygale56.online
+  {
+    pattern: /breezygale56\.online$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // frostywinds57.live
-    {
-      pattern: /frostywinds57\.live$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // frostbite27.pro
+  {
+    pattern: /frostbite27\.pro$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+      'cache-control': 'no-cache',
+      'pragma': 'no-cache',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // icyhailstorm64.wiki
-    {
-      pattern: /icyhailstorm64\.wiki$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-        'cache-control': 'no-cache',
-        'pragma': 'no-cache',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // frostywinds57.live
+  {
+    pattern: /frostywinds57\.live$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // icyhailstorm29.online
-    {
-      pattern: /icyhailstorm29\.online$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // icyhailstorm64.wiki
+  {
+    pattern: /icyhailstorm64\.wiki$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+      'cache-control': 'no-cache',
+      'pragma': 'no-cache',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    
-    // windflash93.xyz
-    {
-      pattern: /windflash93\.xyz$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // icyhailstorm29.online
+  {
+    pattern: /icyhailstorm29\.online$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // stormdrift27.site
-    {
-      pattern: /stormdrift27\.site$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+
+  // windflash93.xyz
+  {
+    pattern: /windflash93\.xyz$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // tempestcloud61.wiki
-    {
-      pattern: /tempestcloud61\.wiki$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://megacloud.blog',
-          'referer': 'https://megacloud.blog/',
-        };
-      }
+  // stormdrift27.site
+  {
+    pattern: /stormdrift27\.site$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
-    
-    // feetcdn.com
-    {
-      pattern: /\.feetcdn\.com$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.online',
-          'referer': 'https://kerolaunochan.online/',
-        };
-      }
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
+
+  // tempestcloud61.wiki
+  {
+    pattern: /tempestcloud61\.wiki$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://megacloud.blog',
+        'referer': 'https://megacloud.blog/',
+      };
+    }
+  },
 
-    // raffaellocdn.net
-    {
-      pattern: /\.raffaellocdn\.net$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.online',
-          'referer': 'https://kerolaunochan.online/',
-        };
-      }
+  // feetcdn.com
+  {
+    pattern: /\.feetcdn\.com$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.online',
+        'referer': 'https://kerolaunochan.online/',
+      };
+    }
+  },
 
-    // heatwave90.pro
-    {
-      pattern: /heatwave90\.pro$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.live',
-          'referer': 'https://kerolaunochan.live/',
-        };
-      }
+  // raffaellocdn.net
+  {
+    pattern: /\.raffaellocdn\.net$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.online',
+        'referer': 'https://kerolaunochan.online/',
+      };
+    }
+  },
 
-    // humidmist27.wiki
-    {
-      pattern: /humidmist27\.wiki$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.live',
-          'referer': 'https://kerolaunochan.live/',
-        };
-      }
+  // heatwave90.pro
+  {
+    pattern: /heatwave90\.pro$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.live',
+        'referer': 'https://kerolaunochan.live/',
+      };
+    }
+  },
 
-    // frozenbreeze65.live
-    {
-      pattern: /frozenbreeze65\.live$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.live',
-          'referer': 'https://kerolaunochan.live/',
-        };
-      }
+  // humidmist27.wiki
+  {
+    pattern: /humidmist27\.wiki$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.live',
+        'referer': 'https://kerolaunochan.live/',
+      };
+    }
+  },
 
-    // drizzlerain73.online
-    {
-      pattern: /drizzlerain73\.online$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.live',
-          'referer': 'https://kerolaunochan.live/',
-        };
-      }
+  // frozenbreeze65.live
+  {
+    pattern: /frozenbreeze65\.live$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.live',
+        'referer': 'https://kerolaunochan.live/',
+      };
+    }
+  },
 
-
-    // sunrays81.xyz
-    {
-      pattern: /sunrays81\.xyz$/i,
-      headers: {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-        'accept': '*/*',
-        'accept-language': 'en-US,en;q=0.5',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-      },
-      headersFn: (url: URL) => {
-        return {
-          'origin': 'https://kerolaunochan.live',
-          'referer': 'https://kerolaunochan.live/',
-        };
-      }
+  // drizzlerain73.online
+  {
+    pattern: /drizzlerain73\.online$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
     },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.live',
+        'referer': 'https://kerolaunochan.live/',
+      };
+    }
+  },
 
-    {
+
+  // sunrays81.xyz
+  {
+    pattern: /sunrays81\.xyz$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://kerolaunochan.live',
+        'referer': 'https://kerolaunochan.live/',
+      };
+    }
+  },
+
+  {
     pattern: /embed\.su$/i,
     headers: {
       'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
@@ -1157,7 +1157,7 @@ export const domainTemplates: DomainTemplate[] = [
       };
     }
   },
-  
+
   // Akamai CDN
   {
     pattern: /\.akamaized\.net$/i,
@@ -1171,7 +1171,7 @@ export const domainTemplates: DomainTemplate[] = [
       'sec-fetch-site': 'cross-site',
     }
   },
-  
+
   // Cloudfront CDN
   {
     pattern: /\.cloudfront\.net$/i,
@@ -1214,25 +1214,60 @@ export const domainTemplates: DomainTemplate[] = [
     }
   },
 
-     // vkcdn5.com
-     {
-        pattern: /\.vkcdn5\.com$/i,
-        headers: {
-          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-          'accept': '*/*',
-          'accept-language': 'en-US,en;q=0.5',
-          'sec-fetch-dest': 'empty',
-          'sec-fetch-mode': 'cors',
-          'sec-fetch-site': 'cross-site',
-        },
-        headersFn: (url: URL) => {
-          return {
-            'origin': 'https://vkspeed.com',
-            'referer': 'https://vkspeed.com/',
-          };
-        }
-      },
-  
+  // vkcdn5.com
+  {
+    pattern: /\.vkcdn5\.com$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://vkspeed.com',
+        'referer': 'https://vkspeed.com/',
+      };
+    }
+  },
+  //Vio SRC
+  {
+    pattern: /\.megacdn\.co$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://videostr.net',
+        'referer': 'https://videostr.net/',
+      };
+    }
+  },
+  //Stream me
+  {
+    pattern: /\.stormyfield58\.pro$/i,
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.5',
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'cross-site',
+    },
+    headersFn: (url: URL) => {
+      return {
+        'origin': 'https://streameeeeee.site',
+        'referer': 'https://streameeeeee.site/',
+      };
+    }
+  },
   // General default template
   {
     pattern: /.*/,
@@ -1253,7 +1288,7 @@ export const domainTemplates: DomainTemplate[] = [
  */
 export function findTemplateForDomain(url: URL): DomainTemplate {
   const hostname = url.hostname;
-  
+
   for (const template of domainTemplates) {
     if (typeof template.pattern === 'string') {
       // String pattern could be exact or with wildcard (*)
@@ -1266,7 +1301,7 @@ export function findTemplateForDomain(url: URL): DomainTemplate {
       return template;
     }
   }
-  
+
   // Return the last template (general default) if no match
   return domainTemplates[domainTemplates.length - 1];
 }
@@ -1278,16 +1313,16 @@ export function findTemplateForDomain(url: URL): DomainTemplate {
  */
 export function generateHeadersForUrl(url: URL): Record<string, string> {
   const template = findTemplateForDomain(url);
-  
+
   // Start with template headers
   const headers = { ...template.headers };
-  
+
   // Apply custom header function if available
   if (template.headersFn) {
     const customHeaders = template.headersFn(url);
     Object.assign(headers, customHeaders);
   }
-  
+
   return headers;
 }
 
