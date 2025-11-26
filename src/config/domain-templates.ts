@@ -1277,6 +1277,8 @@ export const domainTemplates: DomainTemplate[] = [
       'sec-fetch-dest': 'empty',
       'sec-fetch-mode': 'cors',
       'sec-fetch-site': 'cross-site',
+      'origin': 'https://streameeeeee.site',
+      'referer': 'https://streameeeeee.site/',
     }
   }
 ];
